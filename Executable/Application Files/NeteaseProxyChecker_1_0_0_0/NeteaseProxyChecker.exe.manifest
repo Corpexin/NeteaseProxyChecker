@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NeteaseProxyChecker.exe" version="1.0.0.0" publicKeyToken="d5c813fa36b7561d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NeteaseProxyChecker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NeteaseProxyChecker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NeteaseProxyChecker.exe" size="14304">
+      <assemblyIdentity name="NeteaseProxyChecker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XbafLwiEtu/ATHe6aAu8DfhwrO7y7NONuTXAZuzeGaQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="NeteaseProxyChecker.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-KAD56H8\corpe" issuerKeyHash="2494b76e2e7a5fba01fc3d90a7be31b0b4db7ca7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ckHQyp4J6S6mkVdeNJGI4BwFOwKyE5FCE5pZB1d7wn4=</DigestValue></Reference></SignedInfo><SignatureValue>ilhEIeYXL6l2Wb8oaBge1UsGK5k9uCeBdhauwbkgGalBsDPh/7iA39nHVy/miOp63biszNSzGBizJ0GiZSnr/KTZCc0XZIL1qOdgcrhma2x9fnzDvhO63q6CwNxXrPHQBwEM2iEELd/sEUwY5ZIoMiJm5f1PRUNnh20Z8PtYN6Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pz9IteGVujTbPCnjyB4JoRI61OKz0zxQu0Vt6LGdF9WYUR82+5ZQbshG7kJMaWru0a/nfBT+vqUEtKPxQEEsNsBsu4M22rFoW5mcaBTR0+8HDKj/eIFetIBpIJZZ/CwgcB8HVr09AJobXRCzlPZdIzTO0ZeVmZ/pps0cS7prf/s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7ec27b5707599a13429113b2023b051ce08891345e5791a62ee9099ecad04172" Description="" Url=""><as:assemblyIdentity name="NeteaseProxyChecker.exe" version="1.0.0.0" publicKeyToken="d5c813fa36b7561d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-KAD56H8\corpe</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Rg1Fm15AvNFBO/aqVG/wGlFpfLdckBARIK1zPcyEvsY=</DigestValue></Reference></SignedInfo><SignatureValue>aAqP3tW/S4OaoK7ofUGIe3TvWNq5FoFUUv0KSQUrVI6FKW1+tTX3KP9V3WE/9HIWN/vzjKafy8AQSZrd2/bOOe3NpZguj84hFmK9JUXw8L5mIHYrnNNI5J3S/NEj30Z8gVWLjCtMYMzi32jeLHo38WrFO/h7690V6FzBRydFJIo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pz9IteGVujTbPCnjyB4JoRI61OKz0zxQu0Vt6LGdF9WYUR82+5ZQbshG7kJMaWru0a/nfBT+vqUEtKPxQEEsNsBsu4M22rFoW5mcaBTR0+8HDKj/eIFetIBpIJZZ/CwgcB8HVr09AJobXRCzlPZdIzTO0ZeVmZ/pps0cS7prf/s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQQjYh9ckQnI5BV0Yd+6GWPjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAQQBEADUANgBIADgAXABjAG8AcgBwAGUwHhcNMTYwOTIxMjI1OTQxWhcNMTcwOTIyMDQ1OTQxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAQQBEADUANgBIADgAXABjAG8AcgBwAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKc/SLXhlbo02zwp48geCaESOtTis9M8ULtFbeixnRfVmFEfNvuWUG7IRu5CTGlq7tGv53wU/r6lBLSj8UBBLDbAbLuDNtqxaFuZnGgU0dPvBwyo/3iBXrSAaSCWWfwsIHAfB1a9PQCaG10Qs5T2XSM0ztGXlZmf6abNHEu6a3/7AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAMMGOiRLHzOnMbNDfblAsnrcakpTif+NNKgJM5r8+Z/m8UzlP6kK9XsvAd2K65ktP/w3+QjFb2lIYqt5MSR3L7K6QH4Cp2z6GDrbM+wEt63XEC8DEYm2sLqEVI4MYtMKLZKMKWDzGzx3SNr+gTjotdcMi2XO0A61jNWHfuCwWxB0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
