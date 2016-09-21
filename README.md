@@ -13,3 +13,6 @@ It´s simple and ugly, but it has helped me when i want to find working chinese 
 
 Problem: if you put a proxy that is not from china, I think it will pass, so look for then in specific chinese proxies lists:
 http://cn-proxy.com/
+http://www.66ip.cn/
+http://proxy.mimvp.com/
+http://proxy.com.ru/
